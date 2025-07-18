@@ -1,6 +1,6 @@
 package ua.com.vkash.harvesting.core.network
 
-import com.vkash.harvesting.core.common.ApiResult
+import ua.com.vkash.harvesting.core.common.ApiResult
 import java.io.File
 import ua.com.vkash.harvesting.core.network.model.BrigadeRemote
 import ua.com.vkash.harvesting.core.network.model.FieldRemote

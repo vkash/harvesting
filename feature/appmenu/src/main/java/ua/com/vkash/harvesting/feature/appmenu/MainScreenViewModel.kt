@@ -2,8 +2,8 @@ package ua.com.vkash.harvesting.feature.appmenu
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.vkash.harvesting.core.common.AppInfo
-import com.vkash.harvesting.core.common.di.ApplicationInfo
+import ua.com.vkash.harvesting.core.common.AppInfo
+import ua.com.vkash.harvesting.core.common.di.ApplicationInfo
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.SharingStarted

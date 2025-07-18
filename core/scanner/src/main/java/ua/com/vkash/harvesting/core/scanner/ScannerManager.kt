@@ -5,8 +5,8 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import androidx.core.content.ContextCompat
-import com.vkash.harvesting.core.common.AppInfo
-import com.vkash.harvesting.core.common.di.ApplicationInfo
+import ua.com.vkash.harvesting.core.common.AppInfo
+import ua.com.vkash.harvesting.core.common.di.ApplicationInfo
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import kotlinx.coroutines.channels.awaitClose

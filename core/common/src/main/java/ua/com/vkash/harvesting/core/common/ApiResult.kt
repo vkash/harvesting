@@ -1,4 +1,4 @@
-package com.vkash.harvesting.core.common
+package ua.com.vkash.harvesting.core.common
 
 import java.io.IOException
 

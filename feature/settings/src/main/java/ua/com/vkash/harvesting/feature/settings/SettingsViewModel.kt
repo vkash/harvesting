@@ -2,10 +2,10 @@ package ua.com.vkash.harvesting.feature.settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.vkash.harvesting.core.common.ApiResult
-import com.vkash.harvesting.core.common.AppInfo
-import com.vkash.harvesting.core.common.di.ApplicationInfo
-import com.vkash.harvesting.core.common.di.DeviceId
+import ua.com.vkash.harvesting.core.common.ApiResult
+import ua.com.vkash.harvesting.core.common.AppInfo
+import ua.com.vkash.harvesting.core.common.di.ApplicationInfo
+import ua.com.vkash.harvesting.core.common.di.DeviceId
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted

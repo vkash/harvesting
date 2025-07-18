@@ -1,6 +1,6 @@
 package ua.com.vkash.harvesting.core.data.repository
 
-import com.vkash.harvesting.core.common.di.IoDispatcher
+import ua.com.vkash.harvesting.core.common.di.IoDispatcher
 import dagger.Lazy
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineDispatcher

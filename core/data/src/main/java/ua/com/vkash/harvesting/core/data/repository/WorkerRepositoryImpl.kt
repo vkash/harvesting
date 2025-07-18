@@ -1,8 +1,8 @@
 package ua.com.vkash.harvesting.core.data.repository
 
-import com.vkash.harvesting.core.common.ApiResult
-import com.vkash.harvesting.core.common.di.IoDispatcher
-import com.vkash.harvesting.core.common.map
+import ua.com.vkash.harvesting.core.common.ApiResult
+import ua.com.vkash.harvesting.core.common.di.IoDispatcher
+import ua.com.vkash.harvesting.core.common.map
 import dagger.Lazy
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineDispatcher

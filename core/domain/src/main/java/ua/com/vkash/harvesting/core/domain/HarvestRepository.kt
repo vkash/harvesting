@@ -1,6 +1,6 @@
 package ua.com.vkash.harvesting.core.domain
 
-import com.vkash.harvesting.core.common.ApiResult
+import ua.com.vkash.harvesting.core.common.ApiResult
 import kotlinx.coroutines.flow.Flow
 import ua.com.vkash.harvesting.core.model.data.Harvest
 import ua.com.vkash.harvesting.core.model.data.HarvestDetail

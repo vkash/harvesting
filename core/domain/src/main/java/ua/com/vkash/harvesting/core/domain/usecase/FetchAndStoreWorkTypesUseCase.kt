@@ -1,7 +1,7 @@
 package ua.com.vkash.harvesting.core.domain.usecase
 
-import com.vkash.harvesting.core.common.ApiResult
-import com.vkash.harvesting.core.common.di.IoDispatcher
+import ua.com.vkash.harvesting.core.common.ApiResult
+import ua.com.vkash.harvesting.core.common.di.IoDispatcher
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext

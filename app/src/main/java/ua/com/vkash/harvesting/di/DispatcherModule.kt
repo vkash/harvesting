@@ -1,7 +1,7 @@
 package ua.com.vkash.harvesting.di
 
-import com.vkash.harvesting.core.common.di.DefaultDispatcher
-import com.vkash.harvesting.core.common.di.IoDispatcher
+import ua.com.vkash.harvesting.core.common.di.DefaultDispatcher
+import ua.com.vkash.harvesting.core.common.di.IoDispatcher
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

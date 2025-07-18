@@ -9,7 +9,7 @@ import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
 import androidx.work.Data
 import androidx.work.WorkerParameters
-import com.vkash.harvesting.core.common.ApiResult
+import ua.com.vkash.harvesting.core.common.ApiResult
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import java.io.File

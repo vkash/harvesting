@@ -1,7 +1,7 @@
 package ua.com.vkash.harvesting.core.data.repository
 
-import com.vkash.harvesting.core.common.ApiResult
-import com.vkash.harvesting.core.common.di.IoDispatcher
+import ua.com.vkash.harvesting.core.common.ApiResult
+import ua.com.vkash.harvesting.core.common.di.IoDispatcher
 import dagger.Lazy
 import java.util.UUID
 import javax.inject.Inject

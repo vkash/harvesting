@@ -1,10 +1,10 @@
 package ua.com.vkash.harvesting.core.network
 
 import android.util.Base64
-import com.vkash.harvesting.core.common.ApiResult
-import com.vkash.harvesting.core.common.AppInfo
-import com.vkash.harvesting.core.common.di.ApplicationInfo
-import com.vkash.harvesting.core.common.di.DeviceId
+import ua.com.vkash.harvesting.core.common.ApiResult
+import ua.com.vkash.harvesting.core.common.AppInfo
+import ua.com.vkash.harvesting.core.common.di.ApplicationInfo
+import ua.com.vkash.harvesting.core.common.di.DeviceId
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.cio.CIO

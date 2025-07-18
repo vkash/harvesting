@@ -1,4 +1,4 @@
-package com.vkash.harvesting.core.common.di
+package ua.com.vkash.harvesting.core.common.di
 
 import javax.inject.Qualifier
 

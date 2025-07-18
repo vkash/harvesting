@@ -3,9 +3,9 @@ package ua.com.vkash.harvesting.di
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Build
-import com.vkash.harvesting.core.common.AppInfo
-import com.vkash.harvesting.core.common.di.ApplicationInfo
-import com.vkash.harvesting.core.common.di.DeviceId
+import ua.com.vkash.harvesting.core.common.AppInfo
+import ua.com.vkash.harvesting.core.common.di.ApplicationInfo
+import ua.com.vkash.harvesting.core.common.di.DeviceId
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="date_time">%1$td.%1$tm.%1$tY %1$tH:%1$tM</string>
+    <string name="time_sheet">Облік робочого часу</string>
+    <string name="scan_barcode">Відскануйте штрихкод</string>
+</resources>

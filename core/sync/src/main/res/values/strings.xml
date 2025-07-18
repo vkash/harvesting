@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auth_error">Помилка авторизації</string>
+    <string name="unknown_error">Невідома помилка</string>
+    <string name="outdated_app">Застаріла версія додатку</string>
+    <string name="loading_progess_kb">Завaнтажено %1$d з %2$dKB</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading_upk_complete">Завантаження оновлення завершено!</string>
+    <string name="preparation">Підготовка…</string>
+    <string name="completed_successfully">Виконано успішно!</string>
+    <string name="device_id">ID пристрою</string>
+    <string name="authorization">Авторизація</string>
+    <string name="start_sync">РОЗПОЧАТИ СИНХРОНІЗАЦІЮ</string>
+    <string name="misc">Інше</string>
+    <string name="not_specified">не вказано</string>
+    <string name="version">Версія</string>
+    <string name="field">Поле</string>
+    <string name="data_loss_alert">Поточні дані буде видалено. Продовжити?</string>
+    <string name="app_name">Облік врожаю</string>
+    <string name="user">Користувач</string>
+    <string name="scan_badge">Відскануйте свій бейдж</string>
+    <string name="unknown_error">Невідома помилка</string>
+    <string name="outdated_app">Застаріла версія додатку</string>
+    <string name="auth_error">Помилка авторизації</string>
+    <string name="scanner_error">Повторіть сканування</string>
+    <string name="settings">Налаштування</string>
+</resources>

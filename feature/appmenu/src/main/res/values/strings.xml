@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scan_badge">Відскануйте свій бейдж</string>
+    <string name="agro_farm">AgroFarm</string>
+    <string name="brigades">Бригади</string>
+    <string name="reports">Звіти</string>
+    <string name="completed_works">Виконані роботи</string>
+    <string name="time_sheet">Облік робочого часу</string>
+    <string name="harvesting">Збір врожаю</string>
+    <string name="goto_settings_and_scan_badge">Перейдіть в налаштування та відскануйте свій бейдж</string>
+</resources>

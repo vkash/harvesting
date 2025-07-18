@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sync_titles">
+        <item>Очистка даних</item>
+        <item>Завантаження номенклатури</item>
+        <item>Завантаження полів</item>
+        <item>Завантаження робітників</item>
+        <item>Завантаження типів робіт</item>
+    </string-array>
+</resources>

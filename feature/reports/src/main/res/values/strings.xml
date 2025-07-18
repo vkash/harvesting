@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reports">Звіти</string>
+    <string name="harvest_today">Збір за сьогодні</string>
+    <string name="report_by_brigade">Звіт по бригаді</string>
+    <string name="unknown_error">Невідома помилка</string>
+    <string name="scan_badge">Відскануйте свій бейдж</string>
+</resources>

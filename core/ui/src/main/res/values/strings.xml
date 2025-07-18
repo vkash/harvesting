@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_not_available">Дані відсутні</string>
+    <string name="not_specified">не вказано</string>
+    <string name="scan_barcode">Відскануйте штрихкод</string>
+    <string name="qty">К-ть</string>
+    <string name="work_type">Вид роботи</string>
+    <string name="weight">Вага</string>
+    <string name="brigadier">Бригадир</string>
+    <string name="field">Поле</string>
+    <string name="square">Квадрат</string>
+    <string name="tara">Тара</string>
+    <string name="sku">Номенклатура</string>
+    <string name="worker">Робітник</string>
+</resources>

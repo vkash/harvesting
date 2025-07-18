@@ -1,0 +1,21 @@
+plugins {
+    id("java-library")
+    alias(libs.plugins.jetbrains.kotlin.jvm)
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11
+        freeCompilerArgs = listOf("-XXLanguage:+PropertyParamAnnotationDefaultTargetMode")
+    }
+}
+dependencies {
+    implementation(projects.core.common)
+    implementation(projects.core.model)
+
+    api(libs.kotlinx.coroutines.core)
+    implementation(libs.javax.inject)
+}

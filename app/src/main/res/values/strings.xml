@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Облік врожаю</string>
+    <string name="install_successful">Встановлено актуальну версію</string>
+</resources>

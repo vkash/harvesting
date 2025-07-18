@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="num_date">№%1$s від %2$td.%2$tm.%2$tY %2$tH:%2$tM</string>
+    <string name="tara_qty">К-ть тари</string>
+    <string name="harvesting">Збір врожаю</string>
+    <string name="harvest_today">Збір за сьогодні</string>
+</resources>

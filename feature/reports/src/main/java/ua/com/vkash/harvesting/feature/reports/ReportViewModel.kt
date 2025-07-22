@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
 import ua.com.vkash.harvesting.core.common.ApiResult
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Job
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -35,13 +36,12 @@ class ReportViewModel @Inject constructor(
         initialValue = ReportUiState.Loading
     )
 
-    private var listeningForBarcodes = false
+    private var listenForBarcodesJob: Job? = null
 
     @MainThread
     fun listenForBarcodes() {
-        if (listeningForBarcodes) return
-        listeningForBarcodes = true
-        viewModelScope.launch {
+        if (listenForBarcodesJob?.isActive == true) return
+        listenForBarcodesJob = viewModelScope.launch {
             scannerManager.resultFlow.collect { (ok, barcode) ->
                 if (ok) getReport(barcode)
             }

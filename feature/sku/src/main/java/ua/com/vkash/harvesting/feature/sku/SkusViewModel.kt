@@ -6,9 +6,9 @@ import androidx.lifecycle.viewModelScope
 import androidx.navigation.toRoute
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.stateIn
 import ua.com.vkash.harvesting.core.domain.SettingsRepository
 import ua.com.vkash.harvesting.core.domain.SkuRepository
@@ -23,7 +23,7 @@ class SkusViewModel @Inject constructor(
     settingsRepository: SettingsRepository
 ) : ViewModel() {
     private val args = savedStateHandle.toRoute<SkusRoute>()
-    private val skuType = MutableStateFlow(args.type)
+    private val skuType = flowOf(args.type)
 
     val skusUiState = combine(skuType, settingsRepository.fieldFlow()) { t, f ->
         val data = when (t) {
